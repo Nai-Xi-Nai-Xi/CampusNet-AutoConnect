@@ -1,0 +1,64 @@
+{
+  "Campus": {
+    "Enabled": true,
+    "Ssid": "YOUR_CAMPUS_WIFI",
+    "ProfileName": "YOUR_CAMPUS_WIFI",
+    "CreateOpenProfile": true,
+    "AuthAdapter": "SRun",
+    "InterfaceAlias": "",
+    "PortalBase": "http://YOUR_PORTAL_HOST",
+    "PortalPath": "/cgi-bin",
+    "AcId": "",
+    "Username": "",
+    "Drcom": {
+      "ApiBase": "",
+      "AcIp": "",
+      "AccountPrefix": "",
+      "PasswordEncoding": "Plain"
+    }
+  },
+  "Vpn": {
+    "Enabled": true,
+    "Adapter": "ClashVerge",
+    "SetSystemProxy": true,
+    "ClashVerge": {
+      "Executable": "",
+      "Port": 7897
+    },
+    "WireGuard": {
+      "Executable": "",
+      "ConfigPath": "",
+      "TunnelName": ""
+    },
+    "OpenVPN": {
+      "Executable": "",
+      "ProfilePath": "",
+      "Arguments": [
+        "--config",
+        "{profile}"
+      ]
+    },
+    "Tailscale": {
+      "Executable": "",
+      "Arguments": [
+        "up"
+      ]
+    },
+    "WindowsVpn": {
+      "ConnectionName": ""
+    },
+    "Custom": {
+      "Executable": "",
+      "Arguments": []
+    }
+  },
+  "Runtime": {
+    "StartupDelaySeconds": 8,
+    "NetworkWaitSeconds": 15,
+    "SsidWaitSeconds": 60,
+    "AuthWaitSeconds": 45,
+    "VpnWaitSeconds": 45,
+    "LogPath": "runtime\\campusnet.log"
+  }
+}
+
