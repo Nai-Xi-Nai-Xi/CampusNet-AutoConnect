@@ -1,4 +1,4 @@
-# CampusNet-AutoConnect
+# 校园网自动连接工具
 
 **校园网先连好，VPN 再自动开。开机后少点几下。**
 
