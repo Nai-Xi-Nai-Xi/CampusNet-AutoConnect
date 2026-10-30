@@ -9,7 +9,7 @@
 
 [中文安装说明](README.zh-CN.md)
 
-下载 ZIP、解压、双击 `QuickSetup.cmd`，按中文提示设置一次。以后每次登录 Windows，程序会：
+下载 ZIP、解压、双击 `QuickSetup.cmd`就能启动
 
 1. 检查你指定的校园 / 公共 Wi-Fi，发现后连接。
 2. 用你保存的账号、密码完成已适配的网页认证，并确认在线。
